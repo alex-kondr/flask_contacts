@@ -99,6 +99,9 @@ def logout():
     return redirect(url_for("sign_in"))
 
 
+
+
+
 @app.route("/contact/", methods=["GET", "POST"])
 @login_required
 def add_contact():
